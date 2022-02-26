@@ -267,6 +267,8 @@ public class Main {
 		
 		viewData();
 		
+		if(codes.size()==0) return;
+		
 		int indexKey = -1;
 		System.out.print("Masukkan nomor karyawan yang ingin dihapus: ");
 		indexKey = scan.nextInt(); scan.nextLine();	
